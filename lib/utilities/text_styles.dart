@@ -21,3 +21,7 @@ TextStyle text16(colorText, fontWeight) {
 TextStyle text14(colorText, fontWeight) {
   return TextStyle(color: colorText, fontSize: 14, fontWeight: fontWeight);
 }
+
+TextStyle text12(colorText, fontWeight) {
+  return TextStyle(color: colorText, fontSize: 12, fontWeight: fontWeight);
+}
