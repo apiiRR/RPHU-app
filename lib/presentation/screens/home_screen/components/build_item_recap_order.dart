@@ -3,9 +3,11 @@ import 'package:flutter/material.dart';
 import '../../../../utilities/utilities.dart';
 
 class BuildItemRecapOrder extends StatelessWidget {
-  const BuildItemRecapOrder({super.key, required this.title});
+  const BuildItemRecapOrder(
+      {super.key, required this.title, required this.quantity});
 
   final String title;
+  final String quantity;
 
   @override
   Widget build(BuildContext context) {
@@ -16,7 +18,7 @@ class BuildItemRecapOrder extends StatelessWidget {
           style: text14(white, light),
         ),
         Text(
-          "22 Order",
+          "$quantity Order",
           style: text14(white, bold),
         )
       ],
